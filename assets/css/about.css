@@ -116,19 +116,142 @@
 }
 
 @media (max-width: 768px) {
+    .page-title {
+        padding: 2rem 0;
+        margin-bottom: 2rem;
+    }
+
     .page-title h1 {
-        font-size: 2.5rem;
+        font-size: 2rem;
+    }
+
+    .about-content {
+        padding: 0 1rem;
     }
 
     .about-article {
         padding: 1.5rem;
+        margin-bottom: 2rem;
     }
 
     .about-article h1 {
-        font-size: 2rem;
+        font-size: 1.8rem;
+    }
+
+    .about-article > p {
+        font-size: 1rem;
     }
 
     .about-intro, .about-mission, .about-content-type, .about-why {
         padding: 1.5rem;
+        margin: 1.5rem 0;
+    }
+
+    .about-article h2 {
+        font-size: 1.5rem;
+        margin: 1rem 0 0.8rem;
+    }
+
+    .about-content-type li {
+        font-size: 1rem;
+        padding-left: 1.5rem;
+        margin: 0.8rem 0;
+    }
+
+    .about-mission p, .about-why p {
+        font-size: 1rem;
+    }
+
+    .about-closing {
+        padding: 2rem 1.5rem;
+    }
+
+    .about-closing h2 {
+        font-size: 1.5rem;
+    }
+
+    .site-footer {
+        padding: 2rem 0;
+        margin-top: 2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .page-title {
+        padding: 1.5rem 0;
+        margin-bottom: 1.5rem;
+    }
+
+    .page-title h1 {
+        font-size: 1.5rem;
+    }
+
+    .about-content {
+        padding: 0 0.8rem;
+    }
+
+    .about-article {
+        padding: 1rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .about-article h1 {
+        font-size: 1.4rem;
+        margin-bottom: 0.8rem;
+    }
+
+    .about-article > p {
+        font-size: 0.95rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .about-intro, .about-mission, .about-content-type, .about-why {
+        padding: 1rem;
+        margin: 1rem 0;
+        border-radius: 8px;
+    }
+
+    .about-article h2 {
+        font-size: 1.2rem;
+        margin: 0.8rem 0 0.6rem;
+        gap: 0.3rem;
+    }
+
+    .about-content-type ul {
+        padding: 0;
+    }
+
+    .about-content-type li {
+        font-size: 0.95rem;
+        padding-left: 1.2rem;
+        margin: 0.6rem 0;
+        line-height: 1.5;
+    }
+
+    .about-content-type li::before {
+        font-size: 0.8rem;
+    }
+
+    .about-mission p, .about-why p {
+        font-size: 0.95rem;
+        margin: 0.8rem 0;
+    }
+
+    .about-closing {
+        padding: 1.5rem 1rem;
+        margin-top: 2rem;
+    }
+
+    .about-closing h2 {
+        font-size: 1.2rem;
+    }
+
+    .site-footer {
+        padding: 1.5rem 0;
+        margin-top: 1.5rem;
+    }
+
+    .footer-content {
+        padding: 0 1rem;
     }
 }

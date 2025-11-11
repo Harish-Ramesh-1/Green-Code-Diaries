@@ -245,3 +245,280 @@ nav a:hover {
 #scrollToTopBtn:hover {
   background-color: #0575e6;
 }
+
+/* Mobile Responsive Design */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    gap: 15px;
+    padding: 15px;
+  }
+
+  .logo {
+    font-size: 18px;
+    padding: 8px 15px;
+    width: 100%;
+    text-align: center;
+  }
+
+  nav {
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    align-items: stretch;
+  }
+
+  nav a {
+    font-size: 16px;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .social-icons {
+    gap: 8px;
+    margin-left: 0;
+    justify-content: center;
+  }
+
+  .hero {
+    padding: 50px 20px;
+  }
+
+  .hero-content {
+    padding: 20px;
+  }
+
+  .hero-title {
+    font-size: 28px;
+  }
+
+  .hero-subtitle {
+    font-size: 16px;
+  }
+
+  .hero-button {
+    font-size: 16px;
+    padding: 12px 24px;
+  }
+
+  .featured-articles {
+    padding: 30px 15px;
+  }
+
+  .articles-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .article-card {
+    padding: 20px;
+  }
+
+  .article-card h3 {
+    font-size: 18px;
+  }
+
+  .article-card p {
+    font-size: 14px;
+  }
+
+  .newsletter-section {
+    padding: 30px 15px;
+  }
+
+  .newsletter-section h2 {
+    font-size: 22px;
+  }
+
+  .signup-form {
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+  }
+
+  .signup-input {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+
+  .signup-button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+
+  .container {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+
+  .contact-form-section {
+    padding: 30px 15px;
+  }
+
+  .contact-form-section h2 {
+    font-size: 22px;
+  }
+
+  .contact-form {
+    margin-top: 20px;
+  }
+
+  .contact-input,
+  .contact-textarea {
+    padding: 12px;
+    font-size: 16px;
+    max-width: 100%;
+  }
+
+  .contact-button {
+    padding: 12px 24px;
+    font-size: 16px;
+    width: 100%;
+    margin-top: 15px;
+  }
+
+  #scrollToTopBtn {
+    bottom: 70px;
+    right: 15px;
+    padding: 12px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  header {
+    padding: 10px;
+  }
+
+  .logo {
+    font-size: 16px;
+    padding: 6px 12px;
+    border-radius: 15px 30px 15px 30px;
+  }
+
+  nav {
+    gap: 8px;
+  }
+
+  nav a {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  .social-icon {
+    width: 32px;
+    height: 32px;
+  }
+
+  .social-icon svg {
+    width: 18px;
+    height: 18px;
+  }
+
+  .hero {
+    padding: 30px 15px;
+    min-height: 200px;
+  }
+
+  .hero-content {
+    padding: 10px;
+  }
+
+  .hero-title {
+    font-size: 22px;
+  }
+
+  .hero-subtitle {
+    font-size: 14px;
+  }
+
+  .hero-button {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+
+  .featured-articles {
+    padding: 20px 15px;
+  }
+
+  .featured-articles h2 {
+    font-size: 20px;
+  }
+
+  .article-card {
+    padding: 15px;
+  }
+
+  .article-card h3 {
+    font-size: 16px;
+  }
+
+  .article-card p {
+    font-size: 13px;
+  }
+
+  .article-card a {
+    font-size: 13px;
+    padding: 8px 16px;
+  }
+
+  .newsletter-section {
+    padding: 20px 15px;
+  }
+
+  .newsletter-section h2 {
+    font-size: 18px;
+  }
+
+  .newsletter-section p {
+    font-size: 14px;
+  }
+
+  .signup-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+  }
+
+  .signup-button {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  .contact-form-section {
+    padding: 20px 15px;
+  }
+
+  .contact-form-section h2 {
+    font-size: 18px;
+  }
+
+  .contact-form-section p {
+    font-size: 14px;
+  }
+
+  .contact-input,
+  .contact-textarea {
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+
+  .contact-button {
+    padding: 10px 20px;
+    font-size: 14px;
+    width: 100%;
+  }
+
+  #scrollToTopBtn {
+    bottom: 60px;
+    right: 10px;
+    padding: 10px;
+    font-size: 14px;
+  }
+}

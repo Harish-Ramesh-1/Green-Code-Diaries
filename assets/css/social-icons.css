@@ -110,3 +110,60 @@
         background: linear-gradient(to right, #2d7d4c, #6b9442);
     }
 }
+
+/* Mobile Responsive Design */
+@media (max-width: 768px) {
+    .social-icons {
+        gap: 6px;
+        margin-left: 8px;
+    }
+
+    .social-icon {
+        width: 32px;
+        height: 32px;
+    }
+
+    .social-icon svg {
+        width: 18px;
+        height: 18px;
+    }
+
+    .footer-social-icons {
+        gap: 1rem;
+        margin-top: 0.8rem;
+        flex-wrap: wrap;
+    }
+
+    .footer-social-icons svg {
+        width: 24px;
+        height: 24px;
+    }
+}
+
+@media (max-width: 480px) {
+    .social-icons {
+        gap: 5px;
+        margin-left: 5px;
+    }
+
+    .social-icon {
+        width: 28px;
+        height: 28px;
+        border-radius: 8px;
+    }
+
+    .social-icon svg {
+        width: 16px;
+        height: 16px;
+    }
+
+    .footer-social-icons {
+        gap: 0.8rem;
+        margin-top: 0.6rem;
+    }
+
+    .footer-social-icons svg {
+        width: 20px;
+        height: 20px;
+    }
+}
